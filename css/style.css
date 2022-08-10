@@ -1,0 +1,31 @@
+body {
+    font-family: "Cochin", sans-serif;
+}
+
+.link-to-description {
+    font-family: "Didot", sans-serif;
+    font-size: small;
+}
+
+a[href*="ALFA ROMEO"]{
+color: #176503;
+}
+
+.model {
+    color: #c90000;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+#intro {
+    border-top-style: dotted;
+    border-right-style: dotted;
+    border-left-style: dotted;
+    border-bottom-style: dotted;
+}
+
+tr:hover{
+    background-color: #f0d6f5;
+}
