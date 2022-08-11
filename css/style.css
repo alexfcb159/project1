@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: "Cochin", sans-serif;
 }
@@ -7,10 +12,13 @@ body {
     font-size: small;
 }
 
-a[href*="ALFA ROMEO"]{
-color: #176503;
+a[href*="ALFA-ROMEO"]{
+color: #176501;
 }
 
+a[href*="ALFA-ROMEO"]:visited{
+    color: #b2eea5;
+}
 .model {
     color: #c90000;
 }
@@ -20,12 +28,63 @@ h1 {
 }
 
 #intro {
-    border-top-style: dotted;
-    border-right-style: dotted;
-    border-left-style: dotted;
-    border-bottom-style: dotted;
+    border: dotted 2px darkred;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px 20px;
+}
+
+td{
+    padding: 10px 0px;
 }
 
 tr:hover{
     background-color: #f0d6f5;
+}
+
+h2.generation-name {
+    font-size: x-large;
+}
+
+.intro tr{
+    font-size: medium;
+}
+
+p, h3 {
+    font-style: italic;
+}
+
+.description{
+    text-align: justify;
+    max-height: 200px;
+    overflow: scroll;
+    border-bottom: dashed 0.5px lightgrey;
+    padding: 20px 20px;
+}
+
+.generation-name, h3, .header {
+    padding: 20px 20px;
+}
+
+.newsletter{
+    background-image: url("../img/outro.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+}
+
+.caption {
+    display: block;
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 14px;
+    margin-left: 20px;
+    padding: 10px;
+    position: relative;
+    top: 5%;
+    width: 60%;
+    background-color: white;
+    color: black;
+    opacity:0.5;
 }
